@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background: #EAEAEA;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background: #F5F5F5;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: auto; 
+}
+
+
+main {
+    display: flex;
+    flex: 1; 
+    min-height: 60vh; 
+}
+
+/* Las 3 columnas */
+nav {
+    background: #C4C4C4; /* gris clarito izq */
+    width: 20%;
+    padding: 15px;
+    font-size: 12px;
+
+    
+    order: 1;
+}
+
+article {
+    background: #A8A8A8; 
+    width: 60%;
+    padding: 15px;
+    order: 2;
+}
+
+aside {
+    background: #D1D1D1;
+    width: 20%;
+    padding: 15px;
+    font-size: 12px;
+    order: 3;
+}
+
+article h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+article p {
+    font-size: 13px;
+}

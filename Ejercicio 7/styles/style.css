@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.pagina {
+    
+    max-width: 1000px;
+    margin: 0 auto; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background: #F67A6E;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 12px;
+}
+
+
+nav {
+    background: #00BFA6;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.menu-der a:last-child {
+    margin-right: 0;
+}
+
+
+main {
+    display: flex;
+    flex: 1; 
+}
+
+
+aside {
+    width: 30%;
+    background: #F9F9F9;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+aside h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+aside img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+aside p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    line-height: 16px;
+}
+
+.blog {
+    width: 70%;
+    padding: 20px;
+}
+.blog article {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+.blog h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.fecha {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.blog img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.blog p {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+
+footer {
+    background: #D3D3D3;
+    text-align: center;
+    padding: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: auto;  
+}

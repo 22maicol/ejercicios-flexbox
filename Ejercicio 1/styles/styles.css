@@ -1,0 +1,46 @@
+body{
+    margin: 35px 25px 100px 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container .item img {
+    width: 180px;
+  height: auto;
+
+ }
+ .menu{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 50;
+    
+}
+.menu .item {
+  color: #9a9a9a;
+  font-size: 14px;
+  margin-right: 35px;
+}
+
+
+.idioma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 15%;
+  height: 50%;
+  
+}
+
+.idioma .item {
+  display: flex;
+  justify-content: center;
+  margin: 15px 10px 15px 10px;
+  background-color: #8a8a8a;
+  color: white;
+  padding: 10px 12px;
+  font-size: 13px;
+  margin-left: 10px;
+ 
+}

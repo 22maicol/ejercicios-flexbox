@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.menu {
+    list-style: none; 
+    padding: 0;
+    width: 350px;
+    margin: 40px auto; 
+}
+
+
+.menu li {
+    background-color: #d9d9d9; 
+    padding: 15px 20px;
+    margin-bottom: 5px; 
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu li span {
+    font-size: 14px;
+}
+
+
+.menu li a {
+    background-color: white;
+    color: black;
+    text-decoration: none; 
+    font-size: 13px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}

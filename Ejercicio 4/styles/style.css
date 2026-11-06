@@ -1,0 +1,19 @@
+body {
+    background: white;
+}
+
+.galeria {
+    width: 500px; 
+    margin: 50px auto;
+    
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.galeria img {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.15); 
+}
